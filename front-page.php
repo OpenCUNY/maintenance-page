@@ -78,9 +78,8 @@ img {
 </head>
 <body>
   <img class="center" src="<?php echo esc_url( get_template_directory_uri() . '/assets/maintenance/giphy.webp' ); ?>">
-  <h1>Down for scheduled maintenance right meow.</h1>
+  <h1>OpenCUNY is down for scheduled maintenance right meow.</h1>
   <p style="margin-bottom: 3em;">Sites remain active, but logins are disabled.</p>
-  <p>Have a Domain name on OpenCUNY? You may need to take action.</p>
   <!-- Trigger/Open The Modal -->
 <button id="myBtn">Find out more</button>
 
@@ -89,16 +88,11 @@ img {
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close">&times;</span>
-     <p>OpenCUNY is changing servers and if you have a custom domain, you’ll need to update the name server settings to keep your site accesible.</p>
-     <p>Here are the steps you need to follow:</p>
-     <ol>
-      <li><strong>Log into your domain registrar</strong> (e.g., GoDaddy, Domain.com);</li>
-      <li><strong>Navigate to NAME SERVER settings</strong>(it may be under Advanced DNS settings);</li>
-      <li><strong>Change name server settings</strong>. Replace ns1.opencuny.org and ns2.opencuny.org with ns1.reclaimhosting.com and ns2.reclaimhosting.com</li>
-      <li><strong>Confirm that the changes have been saved</strong>.</li>
-      <li><strong>Test your site.</strong> Changes usually take effect quickly, but may take up to 24 hours to propagate globally.</li>
-    </ol>
-    <p>Email info@opencuny.org if you need assistance.</p>
+     <p><strong>OpenCUNY is moving from <a href="https://www.liquidweb.com">Liquid Web</a> servers to <a href="https://www.reclaimhosting.com/">Reclaim Hosting</a> servers.</strong></p>
+     <p>The move consolidates the DGSC website and OpenCUNY on the same server, without changing OpenCUNY's Terms of Participation. In short, you still own you're data and are not subject to the restrictions you'd face on CUNY servers.</p>
+     <p>The move also gives OpenCUNY room to grow. On our old sever, it was difficult to add new services and host new tools. We're hoping the increased flexibility of Reclaim Hosting leads to more pilot projects and quicker rollouts.</p> 
+     <p>Finally, Reclaim Hosting is run by CUNY alums and the team shares a lot of the same values as OpenCUNY. You can read about their story in this <a href="https://bavatuesdays.com/a-long-short-history-of-reclaim-hosting/">blog post</a>.</p>
+     <p>You should not need to make any changes as a result of this move—even if you have a custom domain. However, if you have any problems or have questions, don't hesitate to contact us at info@opencuny.org.</p>
   </div>
 </div>
 
